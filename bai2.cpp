@@ -17,6 +17,7 @@ void arrange(int N, int arr[]) {
         cout << arr[i] << " ";
     }
 }
+// Time = O(N^2)
 
 int main() {
     int N;
@@ -27,3 +28,4 @@ int main() {
     }
     arrange(N, arr);
 }
+// Memory = O(N)

@@ -36,6 +36,8 @@ int main() {
     cin >> N;
     cout << giaithua(N);
 }
+// Time = O(N)
+// Memory = O(N)
 
 
 

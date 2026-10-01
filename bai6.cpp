@@ -21,4 +21,6 @@ void chenPhanTu(vector<int>& arr, int m, int y) {
     }
     arr[m] = y;
 }
-
+// Xoa: Time = O(N)
+// Chen: Time = O(N)
+// Memory = O(N)

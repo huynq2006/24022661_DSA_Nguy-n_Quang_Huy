@@ -26,3 +26,16 @@ void xoaDong(vector<vector<int>>& mat, int i) {
     mat.pop_back();
 }
 
+/*
+1. Ham tongMaTran:
+   Time: O(N * M)
+   Memory: O(1)
+2. Ham xoaDong:
+   Time:
+   - xóa dòng cuối: O(1)      
+   - xóa dòng đầu: O(N * M) 
+   Memory : O(1)
+3. All:
+   Time: O(N * M)
+   Memory: O(N * M)
+*/

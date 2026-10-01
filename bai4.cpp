@@ -30,3 +30,5 @@ int main() {
     cout << a << "/" << b << "\n";
     return 0;
 }
+// Time: O(log(min(|a|, |b|)))
+// Memory: O(1)
